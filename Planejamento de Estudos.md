@@ -2,7 +2,7 @@
 
 ## Objetivo: Completar o bootcamp GFT Start Java antes do prazo final 
 
-###Dia de Hoje: 20/02  Prazo Final 09/03    Dias Restantes: 17
+### Dia de Hoje: 20/02  Prazo Final 09/03    Dias Restantes: 17
 ### Cursos Restantes: 19
 * <s>Boas Vindas</s> 
 * <s>Lógica de Programação Essencial</s>
