@@ -1,0 +1,12 @@
+Tipos de tags:
+
+	@author - Especifiva o autor da classe ou do metodo
+	@deprecated - identifica classes ou métodos obsoletos
+	@link - possibilita a definição de um link para um outro documento local ou remoto através de um url
+	@param - descreve um parametro que será passado a um método
+	@return - descreve qual o tipo de retorno de um método
+	@see - Associa a outras classes ou métodos
+	@since - descreve desde quando uma classe ou métodos foi adcionado
+	@throws - descreve os tipos de exceções que podem ser lançadas por um método
+	@version - descreve a versão da classe ou método
+	

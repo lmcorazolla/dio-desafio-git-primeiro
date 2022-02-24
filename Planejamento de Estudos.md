@@ -3,13 +3,13 @@
 ## Objetivo: Completar o bootcamp GFT Start Java antes do prazo final 
 
 ### Dia de Hoje: 20/02  Prazo Final 09/03    Dias Restantes: 13
-### Cursos Restantes: 18
+### Cursos Restantes: 17
 * <s>Boas Vindas</s> 
 * <s>Lógica de Programação Essencial</s>
 * <s>Aprenda Estrutura de Dados e Algoritmos</s>
 * <s>Introdução ao Git e GitHub</s>
 * <s>Criando seu primeiro Repositório no GitHub</s>
-* Introdução ao Ecossistema e Documentação Java
+* <s>Introdução ao Ecossistema e Documentação Java</s>
 * Dominando IDEs Java
 * Variáveis, Tipos de Dados e Operadores Matemáticos em Java
 * Entendendo Métodos Java

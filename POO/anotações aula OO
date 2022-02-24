@@ -1,0 +1,117 @@
+*Tipos de Herança*
+** Simples
+	A classe filha tem só uma classe mãe
+	Faxineiro-> Funcionário <-Gerente
+	
+** Múltipla
+	A classe filha tem uma ou mais classes mães
+	Aluno <- Estagiário -> Funcionário
+	
+	Java e c# não possuem herança múltipla.
+	Herança múltipla pode gerar problemas por incongruências entre diferentes classes mãe. Que podem ser solucionados mas são complexos.
+	
+**Upcast e Downcast
+Upcast está subindo a hierarquia de classe filha para mãe, Downcast desce de mãe para filha
+
+**Upcast
+Em Java  e igual em C#
+A a = new B();
+
+**Downcast
+Java					C#
+B a = (B)new A();		B b = (B)new A();
+
+**Polimorfismo
+	"A mesma ação, se comportando diferente."
+	Por exemplo um pagamento que pode ser processado na forma de boleto, crédito, débito, pix etc
+	
+**Sobrescrita
+	"A mesma acção, podendo se comportar diferente."
+	Por exemplo uma conta de banco, que dependendo do subtipo pode ter uma forma diferente de exibir o saldo ou não.
+	
+**Polimorfismo X Sobrescrita
+	Polimorfismo não possui um comportamento padrão a ser seguida, enquanto na sobrescrita a classe mãe possui um comportameto que pode ser sobrescrito por uma classe filha.
+	
+Proposta exercicio 2
+	Crie as classes funcionário, gerente, vendedor, faxineiro, realize upcasts e downcasts
+	Análise do comportamento de Polimorfismo e Sobrescrita
+
+*Associação e Interface*	
+**Associação
+	"Possibilita um relacionamento entre classes/objetos, no qual eses possam pedir ajuda a outras classes/objetos e representar de forma completa o conceito ao qual se destinam. Neste ipo de relacionamento, as classes e os objetos interagem entre si para atingir seus objetivos."
+	
+	***Tipos:
+	- Estrutural
+		
+		- Composição
+			"Com Parte Todo" Ex: Pessoa e endereço. Endereço só faz sentido existir no sistema enquanto a pessoa existir.
+		Em Java
+		class Pessoa{
+			Endereco endereco;
+		}
+		
+		- Agregação
+			"Sem Parte Todo" Ex: Disciplina e aluno. A parte pode existir sem o todo. Se a disciplina deixar de existir o aluno não deixa de existir.
+		Em Java
+		class Disciplina {
+			Aluno aluno;
+		}
+		
+		**** Agregação X Composição
+		
+		
+		
+	- Comportamental
+		- Dependência
+			"Depende de" Ex: Compra e cupom. Para aplicar determinado método a entidade depende da outra
+			Em Java
+			class Compra {
+				...
+				finalizar(Cupom cupom, ...){
+				}
+			}
+			
+**Herança X Associação
+	Cada um tem um pq da sua existência e um momento adequado para ser usado.
+	Se uma coisa é a outra se usa herança, se uma coisa usa a outra se usa associação.
+	A relação de herança é mais rígida que a Associação. Valores de associação podem ser mudados durante a execução do software.
+
+** Interface
+	"Define um contrato que deve ser seguido pela classe que a implementa. Quando uma classe implementa uma interface, ela se compromete a realizar todos os comportamentos que a interface disponibiliza."
+	
+	Em Java						Em C#
+	interface A {				interface A {
+	...
+	}							}
+	
+	class B implements A {		class B : A {
+	}							}
+	
+	
+*Pacotes e Visibilidades
+**Pacotes
+	"São uma organização física ou lógica criada para separar as clases com responsabilidades distintas. Com isso, espera-se que a aplicação fique mais organizada e seja possível separar classes de finalidades e representatividades diferentes."
+	Java              C#                Python
+	package ...;      namespace {...}   __init__.py(até 2.x)
+	
+	import ...;       using ...;        from ...
+	                                    import ...
+	                                    
+**Visibilildades ou modificadores de acesso
+	"Um modificador de acesso tem como finalidade determinar até que ponto uma classe, atributo, ou método pode ser usado. a utilização de modificadores de acesso é fundamental para o uso efetivo da Orientação a Objetos. Algumas boas práticas e conceitos só são atingidos com o uso correto deles."
+	***Tipos
+	-Private: Só dentro da classe
+		private
+		private int i;
+		private void do();
+	-Protected: Dentro da classe, mesmo pacote e subclasses
+		protected
+		protected int i;
+		protected void do();
+ 	-Public: Em qualquer lugar
+ 		public
+ 		public int i;
+ 		public void do();
+ 	Qual usar?
+ 		De acordo com as necessidades de encapsulamento e necessidade de acesso dos trechos de código
+	
