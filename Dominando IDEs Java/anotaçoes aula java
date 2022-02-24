@@ -1,0 +1,24 @@
+	Java é uma linguagem de POO desenvolvida na década de 90 pela Sun, e adquirida pela Oracle em 2008.
+	Teve uma adoção extremamente rápida a partir do seu lançamente
+	Java está em tudo
+	
+	Linguagem interpretada
+Programa.java -> |compilador| -> programa.class -> |JVM| -> Execução
+
+Plataforma x Linguagem
+	A linguagem Java é a ling convencional da Plataforma Java, mas não a única
+	A plataforma não está presa a uma plataforma ou hardware, já que roda através de uma VM que pode ser emulada
+	
+Fases da Execução Java
+1. Escrevemos o código fonte .java
+2. Usamos o JDK para gerar o bytecode .class
+3. Para executar a JVM lê o bytecode e as bibliotecas padrões do JRE
+
+OpenJDK é open source com licença GNU, já o JDK Oracle requer uma licença comercial.
+
+Lançamentos de versões OpenJDK LTS (suporte longo prazo) acontecem normalmente a cada 4 anos
+
+IDE
+Ambiente de Desenvolvimento Integrado, software que combina ferramentas comuns de desenvolvimento em uma única GUI, facilitando o desenvolvimento.
+
+ 
