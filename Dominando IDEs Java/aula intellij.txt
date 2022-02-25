@@ -1,0 +1,21 @@
+	Atalhos Intellij:
+alt + insert: criar novo (valido tanto no menu da esquerda quando no código)
+ctrl + shift + f10: salvar config e rodar programa
+shift + f10: rodar se salvo
+ctrl + shift + /: comentar bloco selecionado
+ctrl + /: comenta linhas individualmente
+alt + enter: import
+ctrl + alt + o: limpar imports não usados
+ctrl + d: duplica seleção ou linha atual
+ctrl + y: apagar linha
+shift + f6: renomear e refatorar
+shift + f12: esconder arvore projeto
+ctrl + alt + l: arrumar indentamento
+ctrl + shift + seta cima ou baixo: mover seleção
+ctrl + k: commit git
+ctrl + shift + k: push git
+ctrl + f4: fechar aba
+ctrl + b ou clique: ir para
+
+mais
+http://www.basef.com.br/index.php/Atalhos_do_IntelliJ_Idea
