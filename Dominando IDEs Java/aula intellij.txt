@@ -15,7 +15,7 @@ ctrl + shift + seta cima ou baixo: mover seleção
 ctrl + k: commit git
 ctrl + shift + k: push git
 ctrl + f4: fechar aba
-ctrl + b ou clique: ir para
+ctrl + (b ou clique): ir para
 
 mais
 http://www.basef.com.br/index.php/Atalhos_do_IntelliJ_Idea
