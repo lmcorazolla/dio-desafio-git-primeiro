@@ -1,0 +1,49 @@
+# Operadores Relacionais
+
+"São símbolos especiais que são capazes de realizar comparações etre determinados operandos e, em seguida, retornar um resultado."
+
+Tipos:
+* Similaridade: igual, diferente
+	Igualdade: determina se um operando é igual a outro
+	Diferença: determina se um operando não é igual a outro
+	
+	Simbologia:
+	Igualdade: ==
+	Diferença: !=
+	
+* Tamanho: maior, menor, maior igual, menor igual
+	Maior: determina se um operando é maior que o outro
+	maior igual: determina se é maior ou igual que o outro
+	mesmo vale para menor
+	
+	Simbologia: 
+	>, <, >=, <=
+	
+# Operadores Lógicos
+" São símbolos especiais capazes de realizar comparações lógicas entre operando lógicos o expressões e, em seguida, retornar um resultado."
+
+## Tipos:
+
+* Conjunção
+	operação lógica que só é verdadeira quando ambos os operandos ou expressões envolvidas são verdade
+	Simbologia: && Terminologia: and(e)
+	
+* Disjunção
+	operação que só é falso quando ambos os operandos ou expressões são falsos
+	Simbologia: || Terminologia: or(ou)
+	
+* Disjunção exclusiva
+	operação que só é verdade quando ambos os operandos são opostos
+	Simbologia: ^ Terminologia: xor
+	
+* Negação
+	operação que inverte o valor lógico de um operando ou expressão
+	Simbologia ! Terminologia: inversão
+	
+## Boas práticas
+* Crie variáveis auxiliares para guardar resultados intermediários
+
+
+
+
+
