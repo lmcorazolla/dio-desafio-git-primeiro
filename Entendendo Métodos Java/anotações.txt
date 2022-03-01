@@ -1,0 +1,87 @@
+# 	MÉTODOS
+"É uma porção de código (sub-rotina) que é disponibilizada por uma classe. Este é executado quando é feita uma requisição a ele. São responsáveis por definir e realizar um determinado comportamento."
+
+## Criação
+
+Padrão de definição:
+<?visibilidade?><?tipo?><?modificador?> retorno nome (<?parâmetros?>)<?exceções?> corpo
+campos entre parênteses são opcionais
+onde:
+V: "public", "protected" ou "private"
+T: concreto ou abstrato
+M: "static" ou "final"
+R: tipo de dado ou "void"
+N: nome que é fornecido ao método
+P: parâmetros que pode receber
+E: exceções que pode lançar
+C: código que possui ou vazio
+
+V R N P E C são os campos mais utilizados
+
+Exemplos:
+public Strint getNome(){...}
+public double calcularTotalNota(){...}
+public int verificarDistancia(in n1, int n2){...}
+public abstract void executar();
+public void alterarFabricante(Fabricante fabricante){...}
+
+public static R N(P){...}
+
+
+## Utilização
+Passa-se uma mensagem através de uma classe ou objeto.
+
+nome_classe.nome_metodo(); ou nome_classe.nome_metodo(....);
+nome_objeto.nome_metodo(); ou nome_objeto.nome_metodo(....);
+
+Math.random(); ou Math.sqrt(4);
+usuario.getEmail(); ou usuario.alterarEndereco(endereco);
+
+
+## Particularidades
+
+* Assinatura: é a forma de identificar unicamente o método
+Ass = nome + parâmetros
+Método:
+public double calcularTotalVenda(doube precoItem1, double precoItem2, double precoItem3){...}
+Assinatura:
+calcularTotalVenda(double precoItem1, double precoItem2, double precoItem 3)
+
+* Construtor e Destrutor: são métodos especiais usado na Orientação a Objetos.
+
+* Mensagem: é o ato de solicitar ao método que o mesmo execute. Esta pode ser direcionada a um objeto ou a uma classe.
+
+* Passagem de parâmetros:
+	* Por valor (cópia)
+	int i = 10;
+	public void fazerAlgo(int i){
+		i = i + 10;
+		System.out.println("Valor de i dentro: " + i);
+	}
+	System.out.println("Valor de i fora: " + i);
+
+	
+	* Por referência (endereço)
+	
+## Boas Práticas
+* Nomem dever ser descritivos, mas curtos
+* Notação camelo:  verificarSaldo(); executarTransferencia(...); existeDebito();
+* Deve possuir entre 80 e 120 linhas
+* Evite listas de parâmetros longas
+* Visibilidades adequadas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

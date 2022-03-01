@@ -14,7 +14,7 @@
 * <s>Variáveis, Tipos de Dados e Operadores Matemáticos em Java</s>
 * Entendendo Métodos Java
 * Lógica Condicional e Controle de Fluxos em Java
-* Estruturas de Reétição e Arrays em Java
+* Estruturas de Repetição e Arrays em Java
 * Desafios Iniciais - GFT Start #4 Java
 * <s>Programação Orientada a Objetos</s>
 * Desafios Básicos - GFT Start #4 Java
