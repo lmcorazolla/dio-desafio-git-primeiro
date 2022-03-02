@@ -43,6 +43,71 @@ Tipos:
 ## Boas práticas
 * Crie variáveis auxiliares para guardar resultados intermediários
 
+# Controle de Fluxo
+"São estruturas que tem a capacidade de direcionar o fluxo de execução do código."
+
+## Tipos (nesse curso apenas tipo de decisão será abordado
+* Decisão: if, if-else, if-esle-if, switch e operador ternário
+	Estrutura que avalia uma condição booleana ou variável para direcionar o fluxo de execução
+
+	if(idade>18){}     if(aprovado){...}else{}      if(casado && temFilhos){}else if(casado && semFilhos){}else{}
+	
+
+	ternário
+	condição ? true
+	
+	switch
+variável:	
+byte short char <b>int</b> <b>Enum</b> <bString</b>
+	switch(olhos){
+	case "azuis":
+	break;
+	case "verdes":
+	break;
+	case "castanhos":
+	break;
+	default:
+	break;
+
+
+* Repetição: for. while, do while
+* Interrupção: break, continue e return
+
+## Boas Práticas
+* Switch é para valores exatos e if para expressões booleanas
+* Evitar usar o default do switch para "cases genéricos"
+* Evitar o efeito "flecha" dos ifs
+* Evitar muitos ifs aninhados
+* Usar a boa prática de operadores lógicos para diminuir o tamanho if
+
+# Blocos 
+"É um grupo de 0 ou mais códigos que trabalham em conjunto para executar uma operação"
+
+## Tipos
+* Locais: dentro de métodos
+	{
+	...
+	}
+		if(autorizado){
+			CarregarPerfil
+			DirecionarPáginaPrincipal
+			}
+		if(menorIdade) {
+			DirecionarPáginaProibido
+			}
+		
+* Estáticos: dentro de classes
+* Instância: dentro de classes
+
+
+
+
+
+
+
+
+
+
 
 
 
