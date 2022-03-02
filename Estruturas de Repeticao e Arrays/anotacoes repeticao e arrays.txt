@@ -1,0 +1,24 @@
+# Estruturas de Repetição
+* O real poder dos computadores está na sua habilidade para repetir uma operação ou uma série de operações várias vezes.
+* Cada repetição é chamada laço (loop) é um dos conceitos básicos da programação estruturada
+* Uma estruturada de repetição permite que uma sequência de comandos seja executada repetidamente, caso determinadas condições sejam satisfeitas
+* Essas condições são representadas por expressões lógicas.
+
+* As estruturas de repetição podem ser classificadas em:
+	* Repetição com teste no início (while)
+	* Repetição com teste no final (do-while)
+	* Repetição contada (for)
+
+* O comando break é utilizado para terminar de forma abrupta uma repetição
+* Quando comando continue é executado, os comandos restantes da repetição são ignorados e programa volta a testar novamente ou não.
+
+## Lembrar de operadores prefixados e pós fixados
+	++n  --n  n++  n--
+
+
+
+# Arrays
+* Um array é um objeto utilizado para armazenar sequencialmente dados do mesmo tipo.
+* Permanecem com o mesmo tamanho depois de criados.
+* Podem ser Unidimensionais ou Multidimensionais
+
