@@ -2,8 +2,8 @@
 
 ## Objetivo: Completar o bootcamp GFT Start Java antes do prazo final 
 
-### Dia de Hoje: 03/03  Prazo Final 09/03    Dias Restantes: 6
-### Cursos Restantes: 8
+### Dia de Hoje: 04/03  Prazo Final 09/03    Dias Restantes: 5
+### Cursos Restantes: 7
 * <s>Boas Vindas</s> 
 * <s>Lógica de Programação Essencial</s>
 * <s>Aprenda Estrutura de Dados e Algoritmos</s>
@@ -20,7 +20,7 @@
 * <s>Desafios Básicos - GFT Start #4 Java</s>
 * <s>Crianco um Banco Digital com Java e Orientação a Objetos</s>
 * <s>Debugging Java</s>
-* Tratamento de Exceções em Java
+* <s>Tratamento de Exceções em Java</s>
 * Trabalhando com Collections Java
 * Desafios - GFT Start #4 Java
 * Abstraindo um Bootcamp Usando a Orientação a Objetos em Java
