@@ -1,0 +1,14 @@
+# Spring Framework
+O que é?
+Spring nada mais é que uma plataforma com diversos recursos para construção de aplicativos Java, faclitando assim o desenvolvimento em Java EE com módulos que facilitam a construção de softwares reduzindo o tempo de desenvolvimento.
+
+## Beans
+Um bean é um objeto que é instanciado, montado e gerenciado por um container do Spring através de Inversão de Controle (IoC) e Injeção de Dependências (DI).
+
+é possivel configurar um Bean por arquivos XML ou através de anotações
+
+Em XML usa a tag <bean> dentro de uma tag principal <beans> passando o path da classe assim o Spring saberá quais classses gerenciar a criação de instâncias e a injeção de dependências.
+
+** BeanFactory ou ApplicationContext
+* BeanFactory fornece um mecanismo de configuração avançada capaz de gerenciar objetos de qualquer natureza.
+* ApplicationContext se baseia na BeanFactory (é uma subinterface) e adiciona outras funcionalidades, como integração mais fácil com os recursos AOP do Spring, manipulação de recursos de mensagem (para uso na internacionalização), propagação de eventos e contextos específicos da camada de aplicativo, como WebApplicationContext para uso em aplicativos da web.

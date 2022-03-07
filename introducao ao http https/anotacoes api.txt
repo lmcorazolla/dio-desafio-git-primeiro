@@ -105,4 +105,38 @@ PQ usar?
 * Permite criação de APIs mais eficientes
 * Foco no desenvolvimento
 
+## API JAVA
+API - HTTP
+* Adcionado à versão 11 do Java
+* Suporte HTTP/1.1 e HTTP/2.0
+* Requisições - síncrona e assíncrona
+
+Pacote HTTP
+* HttpClient
+	Classe que define o cliente HTTP     .newHttpClient()   .newBuilder()
+.newHttpClient é imutável
+.new
+
+* HttpRequest
+	Classe de solicitações e utilizações de método   .GET()   .POST()
+	criado a partir do builder
+	métodos que definem os parâmetros de configuração
+	imutável após citado
+
+* HttpResponse
+	Resultado da solicitação HTTP   HttpClient.send()
+	Classe criada indireta,emte
+	Retornado como resultado do envio de uma requisição do cliente
+	Síncrona e Assíncrona
+
+
+
+
+
+
+
+
+
+
+
 
