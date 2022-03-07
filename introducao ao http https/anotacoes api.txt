@@ -1,0 +1,108 @@
+# API
+Coleção de métodos disponibilizados por um serviço para Interação indireta
+	API é o garçom do restaurante
+	Faz o intermédio entre o usuário e o sistema
+
+
+## O que é API em Java?
+* Recursos disponíveis em uma API padrão Java
+* Programas de suporte
+* Possui partes funcionais chamadas pacotes (o que nós denominamos bibliotecas)
+java.io, java.applet, java.security, java.math
+
+## Propriedades de uma API
+### Acesso de dados
+	vai receber uma solicitação e imprimir uma resposta
+	arquivos, bancos de dados
+
+### Esconder complexidade
+	Rotinas e funções
+Transparente:
+* Comandos de hardware
+*funções específicas do sistema
+
+* intermédio de execução
+* Dev pode focar na funcionalidade do app com o suporte da API
+
+### estender funcionalidades
+Comunicação entre software e hardware
+comunicação entre aplicativos
+
+
+### Segurança
+
+## Padrão REST
+* HTTP: Comunicação entre API e Sistema
+REpresentational State Transfer -REST
+* Apresentada por Roy Fielding - 2000
+* Boas práticas - regras bem definidas
+
+* Vantagens da padronização
+- Maior compreensão
+- Redução do esforço
+- Eficiência
+- Migração de sistemas
+
+* Vantagem - Independência da aplicação
+
+Client-server
+* Front X Back
+- princípio da separação
+- organização dos devs
+- organização
+* Portabilidade Interface do usuário
+* Aumento da escalabilidade
+* Simplifica os componentes dos servidores
+
+É um protocolo Stateless
+* Request deve fornecer completo entendimento para o servidor
+* Visibilidade
+* Confiabilidade
+* Escalabilidade
+
+* Escolha - Tradeoff
+- Repetição de dados
+- Per-interaction overhead
+- Performance da rede x propriedades do REST
+
+ Cache
+* Objetivo aumentar eficiência da rede
+* Label Requests - Cacheable or non-cacheable
+* reduz latência e interação
+
+Uniform Interface
+* Diferencial
+	ênfase de uma interface uniforme entre componentes
+* Generalidade - princípio de eng. de software
+	arquitetura geral simplificada
+* Arquitetura de multiplas restrições
+- identificação de recursos
+- manipulação de recursos
+	representaç~´oes - ex: verbos http
+
+
+Elementos de Dados
+
+
+Layered System
+* Composição hierarquica de camadas
+- encapsulamento
+- proteção de dados
+
+* Latência e overhead de dados
+- compensado pelo uso de cache
+
+
+Code on Demand
+* Funcionalidades de clientes -> applets ou scripts
+* Simplificação
+- reduão de features a serem pré-implementadas
+* Sistema extensível X diminuição de visibilidade
+
+PQ usar?
+* padrão comumente adotado
+* conversa bem com http
+* Permite criação de APIs mais eficientes
+* Foco no desenvolvimento
+
+
