@@ -12,3 +12,25 @@ Em XML usa a tag <bean> dentro de uma tag principal <beans> passando o path da c
 ** BeanFactory ou ApplicationContext
 * BeanFactory fornece um mecanismo de configuração avançada capaz de gerenciar objetos de qualquer natureza.
 * ApplicationContext se baseia na BeanFactory (é uma subinterface) e adiciona outras funcionalidades, como integração mais fácil com os recursos AOP do Spring, manipulação de recursos de mensagem (para uso na internacionalização), propagação de eventos e contextos específicos da camada de aplicativo, como WebApplicationContext para uso em aplicativos da web.
+
+
+## Injeção de Dependência
+A Injeção de Dependência (ou DI - Dependency Injection) define quais classse serão instanciadas e onde serão injetadas quando for necessário. Existem três formas de aplicar o DI, por injeção de construtor, setter e interface. O Spring Framework aplica a IoC quando necessário também utilizando o DI.
+
+# Spring Boot
+O Spring Boot é uma extensão do Spring, que ituliza do Spring Framework para iniciar uma aplicação de forma simples e rápida, sem se preocupar com configurações complexas como, por exemplo, o Tomcat.
+
+Componentes base do Sring Boot:
+* Spring Boot Starter
+* Spring Boot Auto-COnfiguration
+* Spring Boor Actuator
+
+COmo funciona?
+Em resumo o Spring Boot é como um template pré-configurado para desenvolvimente e execução de aplicações baseadas no Spring.
+Onde, temos uma arquitetura baseada no Spring Core, que traz os componentes-base do Spring, como o mecanismo de DI/IoC, a Spring Expression Language (SpEL) e alguns módulos-base do Spring AOP ( módulo para implementação de programação orientada a aspectos no Spring).
+* O Spring Boot permite adcionar a estrutura-base o que é chamado de módulo.
+* Um módulo é na verdade uma biblioteca ou ferramenta do exossistema Spring que pode ser adcionada a uma aplicação Spring convencional.
+
+
+
+
