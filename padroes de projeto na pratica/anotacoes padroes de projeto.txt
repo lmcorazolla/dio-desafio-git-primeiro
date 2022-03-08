@@ -1,0 +1,21 @@
+# padrões de projeto
+São soluções consolidadas para problemas recorrentes no desenvolvimento e manutenção de software orientado a objetos
+
+São comumento classificados nas seguintes categorias:
+* padrões criacionais: Abstract Factory, Builder, Fatory Method, Prototype, Singleton
+
+* padrões comportamentais: Chain of Responsibility, Iterator, Observer, Strategy, Template Method
+
+* Padrões estruturais: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy
+
+
+## Singleton
+permitir a criação de uma única instância de uma classe e fornecer um modo para recuperá-la
+
+## Strategy
+simplificar a variação de algoritmos para a resolução de um mesmo problema.
+
+
+
+
+
