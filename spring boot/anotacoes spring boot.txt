@@ -32,5 +32,27 @@ Onde, temos uma arquitetura baseada no Spring Core, que traz os componentes-base
 * Um módulo é na verdade uma biblioteca ou ferramenta do exossistema Spring que pode ser adcionada a uma aplicação Spring convencional.
 
 
+## Swagger
+É um projeto open source com diversas frramentas utilizadas para esenvolver APIs com a especificação OpenAPI Specificateion (OAS), uma especificação para descrever, produzir, consumir e visualizar serviços de uma API REST. Com o OAS você poderá descrever recrsos, URIs, modelos de dados, métodos HTTP aceitos e códigos de resposta.
+
+Tudo isso facilita a vida dos desenvolvedores de diversas linguagens de programação na criação, testes, consumo e documentação de APIs REST.
+
+## Feign
+É um cliente de serviço web declarativo (cliente HTTP) desenvolvido pela Netflix e um dos mais populares do Spring Cloud Component. Com ele é possível criar clientes API HTTP no java de forma mais simples para chamar/consumir os serviços REST, utilizando anotações.
+
+Para usar o Feign, adciona a dependência spring-cloud-starter-openfeign no arquivo pom.xml.
+
+## Spring Boot Test
+O Spring Boot facilita o desenvolvimento de testes de unidade e integração com o Spring Boot Test, um recurso bastante utilizado no desenvolvimento de aplicações java para testar comportamentos do código  regras do negócio.
+
+Para utilizarmos precisamos usar spring-boot-starter-test, que importa os módulos de teste Spring Boot, bem como JUnit Jupiter, AssertJ, Hamcrest e várias outras bibliotecas úteis.
+
+## Testes unitários
+é a base da pirâmide de testes onde são realizados o maior número de testes ou deveria para garantir a fidelidade do código e regras do negócio.
+
+@SpringBootTest
+é útilizada em uma classe de teste e diz ao Spring Boot para procurar uma classe de configuração principal, por exemplo, o @SpringBootApplication, e usá-la para iniciar um contexto de aplicativo Spring.
+
+ 
 
 
